@@ -7,7 +7,7 @@ st.title("Reports", anchor=False)
 
 # to work with Excel files install ----  pip install xlrd ---- 
 with st.expander("Dataframe"):
-    data = pd.read_excel("/Users/mac/Downloads/sample superstore.xls", sheet_name="Orders")  # Read the Excel file and specify the sheet name
+    data = pd.read_excel("sample superstore.xls", sheet_name="Orders")  # Read the Excel file and specify the sheet name
     data
 
     
